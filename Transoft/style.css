@@ -2,6 +2,10 @@
 
 body {
     margin: 0px 15%;
+    margin-top: 80px;
+    background-image: url(/img/onibus.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .navbar-brand {
@@ -20,14 +24,6 @@ body {
 /* .nav-item {
     margin: 0px 50px;
 } */
-
-body {
-    margin-top: 30px;
-    background-image: url(/img/onibus.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 #conteiner-btn-saiba-mais {
     display: flex;
