@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .navbar-brand {
     margin-left: 50px;
 }
@@ -16,19 +18,27 @@
 }
 
 body {
-    background-image: url(/img/background.jpg);
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    margin-top: 30px;
+    background-image: url(/img/onibus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #conteiner-btn-saiba-mais {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    padding: 100px;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar{
     margin: 50px 50px 0px 50px;
     border-radius: 10px;
+}
+
+#introducao {
+    margin: 50px 50px;
+    padding-right: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
 }
