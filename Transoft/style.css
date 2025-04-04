@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    margin: 0px 15%;
     margin-top: 80px;
     background-image: url(/img/onibus.png);
     background-position: center;
@@ -12,18 +11,9 @@ body {
     margin-left: 50px;
 }
 
-#navbarNav {
-    justify-content: center;
-    
-}
-
 .navbar-nav {
     width: auto;
 }
-
-/* .nav-item {
-    margin: 0px 50px;
-} */
 
 #conteiner-btn-saiba-mais {
     display: flex;
@@ -33,11 +23,28 @@ body {
 
 .navbar{
     border-radius: 10px;
+    margin: 0px 15%;
 }
 
 #introducao {
-    margin: 80px 0px;
-    padding-right: 50%;
+    margin: 80px 15%;
+    padding-right: 30%;
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+footer{
+    display: flex;
+    color: #061761;
+    background-color: white;
+    bottom: 0;
+}
+
+.texto-footer{
+    display: flex;
+}
+  
